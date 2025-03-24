@@ -33,9 +33,6 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="card-title">{post.title}</h5>
                 <p className="card-text">{post.content.substring(0, 100)}...</p>
-                <Link to={`/post/${post._id}`} className="btn btn-primary">
-                  Read more
-                </Link>
               </div>
             </div>
           ))}
